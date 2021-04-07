@@ -21,13 +21,13 @@ Basis: uitleg, spelen, afgaan en punten
 
 Uitbreiding: *bedenk iets, bijvoorbeeld meer tegenstanders*
 - [ ] de achtergrond/ grond is een grasland met heuvels in de achtergrond maar je hebt ook keuze uit een steenachtig gebied
-- [ ] lijst van mogelijke enemies:Rat, een levende rocket launcher, skeletten met staf, zombie, een vliegtuig(valt niet aan maar kan kapot maken), een vliegend zwaard, een kat met een elektrische aura waarin je damage krijgt, een kolekast die een laser afschiet en YEAH! roept, 
-- [ ] lijst van npc's : BHead (reset de wereld), Shenron (als je 7 speciale items bij elkaar brengt geeft hij 1 wens), Liquado man, Dababy (zegt lesgo en mogelijke boss), Rat npc die kaas als geld gebruikt
+- [ ] lijst van mogelijke enemies:Rat, een levende rocket launcher, skeletten met staf, zombie, een vliegtuig(valt niet aan maar kan kapot maken), een vliegend zwaard, een kat met een elektrische aura waarin je damage krijgt, een koelkast die een laser afschiet en YEAH! roept, 
+- [ ] lijst van npc's : BHead (reset de wereld), Shenron (als je 7 speciale items bij elkaar brengt geeft hij 1 wens), Liquado man, Dababy (zegt lesgo en mogelijke boss), Rat npc die kaas als geld gebruikt, een npc die steeds zn naam vergeet, kip die wings verkoopt
 
 Uitbreiding: *bedenk iets, bijvoorbeeld bewegende achtergrond*
 - [ ] Wapens: een water zwaard(als je de quest van liquado complete), een uzi met de description 'yeah yeah yeah yeah',bomlaucher, stok met veel knockbaack, een zwaard die een viegtuig afschiet, een pistool dat een zwaard afschiet (de pistolsword), een zwaard dat een pistool afschiet (swordpistol), een pinguin die verranderd in een gigantische bom als je hem neezet,gitaar die elektrische aura heeft.
 - [ ] World events: random chimp event (, als de speler 'kaas heet dan jumpscare', bommen die uit de lucht vallen (gebeurd als je op 'byeah' optie klikt van BHead)
-- [ ] Items:dragon balls, bommen, pebble (klein steentje dat alles instakilled)
+- [ ] Items:dragon balls, bommen, pebble (klein steentje dat alles instakilled), peper dat je sneller laat lopen, can in a bread (squidward), telefoon, power pole, nimbus, wings, moby huge lol, een bom van cherrys(cherrybomb)
 
 ## Credits
 - Game template van het Emmauscollege Rotterdam https://github.com/emmauscollege/4HV-game-template
