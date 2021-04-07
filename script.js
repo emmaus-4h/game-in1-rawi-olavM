@@ -112,6 +112,9 @@ var beweegKogel = function () {
 var beweegSpeler = function () {
   if (keyIsDown(LEFT_KEY)) {
     spelerX = spelerX - 1;
+    };
+    if (keyIsDown(RIGHT_KEY)) {
+      spelerX = spelerX + 1;
   };
 };
 
