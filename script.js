@@ -24,7 +24,7 @@ var spelStatus = SPELEN;
 
 // speler data
 var spelerX = 200; // x-positie van speler
-var spelerY = 100; // y-positie van speler
+var spelerY = 600; // y-positie van speler
 var LEFT_KEY = 37;
 var RIGHT_KEY = 39;
 var UP_KEY = 38;
@@ -111,12 +111,16 @@ var beweegKogel = function () {
  */
 var beweegSpeler = function () {
   if (keyIsDown(LEFT_KEY)) {
-    spelerX = spelerX - 1;
-    };
-    if (keyIsDown(RIGHT_KEY)) {
-      spelerX = spelerX + 1;
+    spelerX = spelerX - 2;
+  };
+  if (keyIsDown(RIGHT_KEY)) {
+    spelerX = spelerX + 2;
+  };
+  if (keyIsDown(UP_KEY)) {
+    spelerY = spelerY - 3;
   };
 };
+
 
 
 /**
