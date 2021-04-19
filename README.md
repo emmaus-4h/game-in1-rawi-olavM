@@ -22,7 +22,7 @@ Basis: uitleg, spelen, afgaan en punten
 Uitbreiding: *bedenk iets, bijvoorbeeld meer tegenstanders*
 - [ ] de achtergrond/grond is een grasland met heuvels in de achtergrond maar je hebt ook keuze uit een steenachtig gebied
 - [ ] lijst van mogelijke enemies: Rat, een levende raket, skeletten met staf, zombie, een vliegtuig(valt niet aan maar kan kapot maken), een vliegend zwaard, een kat met een elektrische aura waarin je damage krijgt, een koelkast die een laser afschiet en YEAH! roept, 
-- [ ] lijst van npc's : bHead (reset de wereld), Shenron (als je 7 speciale items bij elkaar brengt geeft hij 1 wens), Liquado man, Dababy (zegt lesgo en mogelijke boss), Rat npc die kaas als geld gebruikt, een npc die steeds zn naam vergeet, kip die wings verkoopt, Monkey man, Majin(iemand).
+- [ ] lijst van npc's : bHead (reset de wereld), Shenron (als je 7 speciale items bij elkaar brengt geeft hij 1 wens), Liquado man, Dababy (zegt lesgo en mogelijke boss), Rat npc die kaas als geld gebruikt, een npc die steeds zn naam vergeet, kip die wings verkoopt, een aap, Majin(iemand).
 
 Uitbreiding: *bedenk iets, bijvoorbeeld bewegende achtergrond*
 - [ ] Wapens: een water zwaard(als je de quest van liquado complete), een uzi met de description 'yeah yeah yeah yeah', rpg, stok met veel knockback, een zwaard die een viegtuig afschiet, een pistool dat een zwaard afschiet (de pistolsword), een zwaard dat een pistool afschiet (swordpistol), een pinguin die verranderd in een gigantische bom als je hem neergezet,gitaar die muziek aura heeft.
