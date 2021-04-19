@@ -25,6 +25,9 @@ var spelStatus = SPELEN;
 // speler data
 var spelerX = 200; // x-positie van speler
 var spelerY = 600; // y-positie van speler
+var spelerYsnelheid = 0; // snelheid waarmee speler beweegt in R richting, voor springen
+var spelerYgravity = 0.5; // hoeveel elke 50e seconde bij de snelheid komt vanwege de zwaartekracht
+var spelerYvloer = 600; // hoogte van de vloer waar speler niet doorheen kan
 var LEFT_KEY = 37;
 var RIGHT_KEY = 39;
 var UP_KEY = 38;
@@ -116,9 +119,24 @@ var beweegSpeler = function () {
   if (keyIsDown(RIGHT_KEY)) {
     spelerX = spelerX + 2;
   };
+  
+  // zorg dat speler omhoog gaat als je op UP drukt
+  // speler gaat harder omhoog dan dat hij zakt door de zwaartekracht
   if (keyIsDown(UP_KEY)) {
-    spelerY = spelerY - 3;
+    spelerYsnelheid = -10;
   };
+  
+  // zorg dat de speler beweegt met de snelheid
+  spelerY = spelerY + spelerYsnelheid;
+
+  // zorg dat speler steed minder hard stijgt of harder valt
+  spelerYsnelheid = spelerYsnelheid + spelerYgravity;
+
+  // zorg dat speler niet door grond zakt
+  if (spelerY > spelerYvloer) {
+    spelerY = spelerYvloer;
+    spelerYsnelheid = 0;
+  }
 };
 
 
