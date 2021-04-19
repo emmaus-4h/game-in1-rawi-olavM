@@ -31,7 +31,7 @@ var spelerYvloer = 600; // hoogte van de vloer waar speler niet doorheen kan
 var LEFT_KEY = 37;
 var RIGHT_KEY = 39;
 var UP_KEY = 38;
-
+var SHIFT_LEFT = 16;
 
 
 var kogelX = 0;    // x-positie van kogel
@@ -114,12 +114,16 @@ var beweegKogel = function () {
  */
 var beweegSpeler = function () {
   if (keyIsDown(LEFT_KEY)) {
-    spelerX = spelerX - 2;
+    spelerX = spelerX - 3;
   };
   if (keyIsDown(RIGHT_KEY)) {
-    spelerX = spelerX + 2;
+    spelerX = spelerX + 3;
   };
+  // dash als je enter klikt 
+  if (keyIsDown(SHIFT_LEFT)) {
+    spelerX = spelerX + 20;
   
+  };
   // zorg dat speler omhoog gaat als je op UP drukt
   // speler gaat harder omhoog dan dat hij zakt door de zwaartekracht
   if (keyIsDown(UP_KEY)) {
