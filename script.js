@@ -32,7 +32,8 @@ var LEFT_KEY = 37;
 var RIGHT_KEY = 39;
 var UP_KEY = 38;
 var SHIFT_LEFT = 16;
-
+var DASH_RIGHT = 96;
+var DASH_LEFT = 16;
 
 var kogelX = 0;    // x-positie van kogel
 var kogelY = 0;    // y-positie van kogel
@@ -120,10 +121,13 @@ var beweegSpeler = function () {
     spelerX = spelerX + 3;
   };
   // dash als je enter klikt 
-  if (keyIsDown(SHIFT_LEFT)) {
+  if (keyIsDown(DASH_RIGHT)) {
     spelerX = spelerX + 20;
   
   };
+  if (keyIsDown(DASH_LEFT)){
+    spelerX = spelerX - 20;
+  }
   // zorg dat speler omhoog gaat als je op UP drukt
   // speler gaat harder omhoog dan dat hij zakt door de zwaartekracht
   if (keyIsDown(UP_KEY)) {
@@ -186,7 +190,7 @@ function setup() {
   createCanvas(1280, 720);
 
   // Kleur de achtergrond blauw, zodat je het kunt zien
-  background('grey');
+  background('black');
 }
 
 

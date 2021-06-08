@@ -34,3 +34,6 @@ Uitbreiding: *bedenk iets, bijvoorbeeld bewegende achtergrond*
 - manifest.json https://codelabs.developers.google.com/codelabs/your-first-pwapp/#3
 - icon http://www.iconarchive.com/show/android-lollipop-icons-by-dtafalonso/Play-Games-icon.html
 - ...
+
+
+! we hebben dit complete idee geschrapt vanwege tijd maatregelen en we hebbe besloten om een game te doen waar je dashed tegen een enemy en hun daarmee vermoord !
