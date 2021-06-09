@@ -36,4 +36,4 @@ Uitbreiding: *bedenk iets, bijvoorbeeld bewegende achtergrond*
 - ...
 
 
-! we hebben dit complete idee geschrapt vanwege tijd maatregelen en we hebbe besloten om een game te doen waar je dashed tegen een enemy en hun daarmee vermoord !
+! voor het oude idee is nu geen tijd meer dus gaan we een spel maken waar je aanvallen ontwijkt et de dashes en normale bwegeingen en score scoort door de tijd dat je leeft. !
