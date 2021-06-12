@@ -27,7 +27,10 @@ var spelerX = 200; // x-positie van speler
 var spelerY = 600; // y-positie van speler
 var spelerYsnelheid = 0; // snelheid waarmee speler beweegt in R richting, voor springen
 var spelerYgravity = 0.5; // hoeveel elke 50e seconde bij de snelheid komt vanwege de zwaartekracht
-var spelerYvloer = 600; // hoogte van de vloer waar speler niet doorheen kan
+var spelerYvloer = 650; // hoogte van de vloer waar speler niet doorheen kan
+var spelerYplafond = 80;
+var arenarandlinks = 20;
+var arenarandrechts = 200;
 var LEFT_KEY = 37;
 var RIGHT_KEY = 39;
 var UP_KEY = 38;
@@ -146,8 +149,6 @@ var beweegSpeler = function () {
     spelerYsnelheid = 0;
   }
 };
-
-
 
 /**
  * Zoekt uit of de vijand is geraakt
