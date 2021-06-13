@@ -36,4 +36,4 @@ Uitbreiding: *bedenk iets, bijvoorbeeld bewegende achtergrond*
 - ...
 
 
-! voor het oude idee is nu geen tijd meer dus gaan we een spel maken waar je aanvallen ontwijkt et de dashes en normale bwegeingen en score scoort door de tijd dat je leeft. !
+! voor het oude idee is nu geen tijd meer dus gaan we een spel maken waar je aanvallen ontwijkt met de dashes en normale bewegingen en score scoort door de tijd dat je leeft. !
